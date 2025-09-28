@@ -34,7 +34,8 @@ def retrieve(query, k=3):
 
 # ======= LLM Model (safer defaults + env override) =======
 # Default model chosen to be Colab-friendly. You can override by setting environment variable C_TUTOR_MODEL.
-MODEL = os.environ.get("C_TUTOR_MODEL", "microsoft/phi-3-mini-4k-instruct")
+MODEL = os.environ.get('C_TUTOR_MODEL','microsoft/phi-3-mini-4k-instruct')
+
 
 # Lazy load with safe fallback
 tok = None
