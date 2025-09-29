@@ -1,3 +1,12 @@
+# C Programming Tutor (with full notes)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tpolitam-arch/c-programming-tutor-ai/blob/master/Run_C_Tutor_From_GitHub_with_notes.ipynb)
+
+This project includes:
+- Full Unit 1–5 notes in `notes/`
+- A Colab-safe tutor app (`app/c_tutor_app.py`) using `microsoft/phi-3-mini-4k-instruct` by default
+- Retrieval-only fallback if model cannot load in Colab Free
+
 # C Programming Tutor - Free (Colab-ready)
 
 This project is a free, Colab/Kaggle/HuggingFace-ready AI tutor for a C programming course.
